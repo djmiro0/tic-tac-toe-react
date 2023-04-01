@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Righteous&display=swap");
+
+.App {
+  text-align: center;
+  background-image: linear-gradient(to bottom, #ffffff, #ffb1b1);
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  font-family: "Righteous", cursive;
+}
+
+.reset-button {
+  margin-top: 25px;
+  background-color: #bababa;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.play-again-button {
+  margin-top: 25px;
+  background-color: #ff5d5d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0505;
+}
